@@ -1,7 +1,6 @@
 NAME = telephone
 CC = c++
-#CFLAGS = -Wall -Wextra -Werror -std=c++98
-CFLAGS = -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)
 

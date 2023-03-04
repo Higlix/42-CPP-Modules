@@ -1,7 +1,7 @@
 #include "PhoneBook.hpp"
 #include <unistd.h>
 
-int main(int argc, char **argv)
+int main(void)
 {
 	PhoneBook pb;
 	int input_val;
